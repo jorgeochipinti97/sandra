@@ -39,6 +39,10 @@ export const Features1 = () => {
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
+                  <span>Desayuno incluido</span>
+                </li>
+                <li className="mb-4 flex">
+                  <CheckArrowIcon />
                   <span>Habitaciones con aire, ventilador, calefacción</span>
                 </li>
                 <li className="mb-4 flex">
