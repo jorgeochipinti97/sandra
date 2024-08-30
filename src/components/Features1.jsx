@@ -2,8 +2,9 @@ import { motion } from "framer-motion";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-
+import 'swiper/css/pagination';
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
+import { Pagination } from 'swiper/modules';
 
 export const Features1 = () => {
   return (
@@ -51,13 +52,14 @@ export const Features1 = () => {
             <Swiper
               spaceBetween={50}
               slidesPerView={1}
-
+              modules={[Pagination]}
+pagination={true}
               onSlideChange={() => console.log('slide change')}
               onSwiper={(swiper) => console.log(swiper)}
-              className=""
+              className="mySwiper "
             >
               <SwiperSlide>
-                <div className="flex justify-center">
+                <div className="flex justify-center pb-5">
 
                   <img src="/foto2.jpeg" className="rounded-xl md:h-[60vh]" />
                 </div>
