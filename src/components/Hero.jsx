@@ -19,10 +19,9 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.05 }}
         >
-          <div className=" font-bold tracking-wide  text-primaryText  px-8 sm:px-8 md:px-20 lg:px-4">
-            <h1 className=" text-3xl  tracking-tighter">Alojamiento: <br /> Dean Funes 798, Monte Grande</h1>
 
-          </div>
+          <h1 className=" md:text-7xl text-3xl  tracking-tighter text-white font-bold">Alojamiento temporal </h1>
+          <h3 className="text-xl md:text-3xl  mt-5 tracking-tighter font-semibold text-white">Dean Funes 798, Monte Grande</h3>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 10 }}
@@ -30,10 +29,10 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <h2 className="text-secondaryText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48 ">
-            Desayuno incluido, WiFi, y baño privado. <br/> Servicios adicionales opcionales.
+            Desayuno incluido, WiFi, y baño privado. <br /> Servicios adicionales opcionales.
           </h2>
         </motion.div>
-   
+
         <motion.div
           initial={{ opacity: 0, y: 10, zIndex: 20 }}
           animate={{ opacity: 1, y: 0, zIndex: 20 }}
@@ -44,7 +43,7 @@ export const Hero = () => {
               src={'/foto1.jpeg'}
               alt="Dashboard image"
               className="md:h-[80vh] h-auto md:w-auto w-4/5 rounded-xl"
-              // className="w-5/5 2xl:w-[1200px] md:h-[60vh] mx-auto absolute z-10 rounded-xl main-border-gray hero-dashboard-border-gradient lg:top-6 xl:top-0"
+            // className="w-5/5 2xl:w-[1200px] md:h-[60vh] mx-auto absolute z-10 rounded-xl main-border-gray hero-dashboard-border-gradient lg:top-6 xl:top-0"
             />
           </div>
         </motion.div>
