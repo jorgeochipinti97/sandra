@@ -7,24 +7,24 @@ import testimonial3 from "../assets/images/testimonial3.png";
 
 const testimonialsData = [
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: "Carlos D.",
+    customerTitle: "Tripulante de cabina",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "Perfecto para viajeros. Estaba a solo unos minutos del aeropuerto, lo que hizo mi viaje mucho más sencillo. El desayuno incluido y el WiFi me permitieron relajarme y prepararme para mi vuelo. Un lugar cómodo y conveniente.",
     image: testimonial1,
   },
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: "Laura S.",
+    customerTitle: "Azafata",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "Viajar constantemente puede ser agotador, pero mi estancia aquí fue todo lo contrario. La cercanía al aeropuerto me permitió descansar bien antes de mi próximo vuelo. Además, la habitación con baño privado y calefacción fue un lujo después de un largo día de trabajo en el aire.",
     image: testimonial2,
   },
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: "Andrés P.",
+    customerTitle: "Ingeniero de Mantenimiento de Aeronaves",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "Excelente opción para quienes trabajan en la industria aérea y necesitan estar cerca del aeropuerto. El alojamiento es tranquilo, con todas las comodidades necesarias, y el servicio opcional de almuerzo y cena fue un gran plus después de un largo día en el hangar. ¡Lo recomiendo para mis colegas!",
     image: testimonial3,
   },
 ];
@@ -39,9 +39,9 @@ export const Testimonials = () => (
         viewport={{ once: true }}
         transition={{ duration: 0.4, delay: 0.3 }}
       >
-        <div className="block-subtitle text-center mb-6">Testimonials</div>
+        <div className="block-subtitle text-center mb-6">Testimonios</div>
         <div className="block-big-title text-center mb-20 px-8 sm:px-24 md:px-48">
-          People like you love Tailcast
+Personas que se alojaron con nosotros:
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-5 xl:gap-10 px-6 xl:px-0 items-center">
