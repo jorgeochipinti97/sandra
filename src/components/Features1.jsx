@@ -62,43 +62,43 @@ pagination={true}
               onSwiper={(swiper) => console.log(swiper)}
               className="mySwiper "
             >
-              <SwiperSlide>
+              <SwiperSlide className="cursor-grab">
                 <div className="flex justify-center pb-5">
 
                   <img src="/foto2.jpeg" className="rounded-xl md:h-[60vh]" />
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
+              <SwiperSlide className="cursor-grab">
                 <div className="flex justify-center">
 
                   <img src="/foto3.jpeg" className="rounded-xl md:h-[60vh]" />
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
+              <SwiperSlide className="cursor-grab">
                 <div className="flex justify-center">
 
                   <img src="/foto4.jpeg" className="rounded-xl md:h-[60vh]" />
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
+              <SwiperSlide className="cursor-grab">
                 <div className="flex justify-center">
 
                   <img src="/foto5.jpeg" className="rounded-xl md:h-[60vh]" />
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
+              <SwiperSlide className="cursor-grab">
                 <div className="flex justify-center">
 
                   <img src="/foto6.jpeg" className="rounded-xl md:h-[60vh]" />
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
+              <SwiperSlide className="cursor-grab">
                 <div className="flex justify-center">
 
                   <img src="/foto7.jpeg" className="rounded-xl md:h-[60vh]" />
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
+              <SwiperSlide className="cursor-grab">
                 <div className="flex justify-center">
 
                   <img src="/foto8.jpeg" className="rounded-xl md:h-[60vh]" />
